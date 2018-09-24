@@ -258,3 +258,32 @@ a{
 .footer-text{
     margin-top:37px;
 }
+@media (max-width:980px) {
+    #a1 {
+        position:absolute;
+        left:480px;
+    }
+    #a2{
+        position:absolute;
+        left:540px;
+    }
+    #a3{
+        position:absolute;
+        left:620px;
+    }
+    #contact-field{
+        position:absolute;
+        width:70%;
+        left:20px;
+    }
+    #contacthead{
+        width:70%;
+        position:absolute;
+    }
+    #contact-form{
+        position:relative;
+        top:50px;
+        left:20px;
+    }
+
+}
