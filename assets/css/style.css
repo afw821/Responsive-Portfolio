@@ -297,11 +297,14 @@ a{
         right:20px;
     }
     .footer{
-        position:relative;
+        position:absolute;
     }
 
 }
 @media (max-width:768px){
+    .header{
+        width:110%;
+    }
     #full{
         width:768px;
         overflow:hidden;
@@ -318,5 +321,16 @@ a{
     }
     #p2{
         padding-left:25px;
+    }
+    .footer{
+        position:absolute;
+        bottom:-110px;
+        width:110%;
+    }
+    #contact-field{
+        width:60%;
+    }
+    #contacthead{
+        width:93%;
     }
 }
