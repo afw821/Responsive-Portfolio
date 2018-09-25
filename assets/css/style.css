@@ -93,6 +93,13 @@ body{
     left: 575px;
     top: 500px;
 }
+#img4-container{
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    left: 1000px;
+    top: 500px;
+}
 
 .image{
     margin-left:10px;
@@ -225,11 +232,37 @@ a{
         top:200px;
     }
     .image{
-        position:relative;
-        left:100px;
-        top:20px;
+      position:absolute;
+      top:0px;
+      right:0px;
+      left:0px;
     }
-
+    #img1-container{
+        width:300px;
+        height:250px;
+        position:absolute;
+        left:60px;
+    }
+    #img2-container{
+        width: 300px;
+        height: 250px;
+        position: absolute;
+        left: 540px;
+    }
+    #img3-container{
+        width: 300px;
+        height: 250px;
+        position: absolute;
+        left: 60px;
+        top: 500px;
+    }
+    #img4-container{
+        width: 300px;
+        height: 250px;
+        position: absolute;
+        left: 540px;
+        top: 500px;
+    }
 }
 @media (max-width:768px){
     .header{
@@ -263,6 +296,21 @@ a{
     #contacthead{
         width:93%;
     }
+    #portfolio-box{
+        width:100%;
+    }
+    #portfolio{
+        width:758px;
+    }
+    #img1-container{
+        width:200px;
+    }
+    .image{
+        width:200px;
+    }
+    .message{
+        width:200px;
+    }
 }
 @media (max-width:640px){
     #full{
@@ -277,5 +325,27 @@ a{
     }
     .footer{
         position:relative;
+    }
+    #portfolio{
+        width:636px;
+    }
+    #img2-container{
+        width: 200px;
+        height: 250px;
+        left: 360px;
+    }
+    #img3-container{
+        width: 200px;
+        height: 250px;
+        position: absolute;
+        left: 60px;
+        top: 500px;
+    }
+    #img4-container{
+        width: 200px;
+        height: 250px;
+        position: absolute;
+        left: 360px;
+        top: 500px;
     }
 }
