@@ -21,9 +21,13 @@ body{
     width:20%;
     color:white;
     text-align: center;
-
 }
-
+.about-pg-img{
+    float:left;
+    padding-right: 33px;
+    padding-left: 13px;
+    padding-top: 11px;
+}
 .list{
     float:right;
     position:absolute;
@@ -31,20 +35,14 @@ body{
     top:50px;
     width:300px;
     margin-right:300px;
-    /* position: absolute;
-    left: 800px;
-    top: 40px;
-    width: 300px;
-    margin-right: 300px; */
 }
 #full{
     background-color: #ffffff;
-    height:500px;
     width:960px;
     border:1px solid gray;
     margin: auto;  
     position:static;
-    z-index:2;  
+    height: 450px;
 }
 #portfolio-box{
     background-color: #ffffff;
@@ -54,7 +52,6 @@ body{
     margin: auto;  
     position:static;
     z-index:2;
-
 }
 #contact-field{
     background-color: #ffffff;
@@ -189,7 +186,6 @@ a{
     .header{
         width:100%;
     }
-
     #a1 {
         position:absolute;
         left:480px;
@@ -201,6 +197,15 @@ a{
     #a3{
         position:absolute;
         left:620px;
+    }
+    #full{
+        width: 650px;
+    }
+    #about{
+        width: 648px;
+    }
+    .p2{
+        padding-left:12px;
     }
     #contact-field{
         position:absolute;
@@ -313,6 +318,9 @@ a{
     }
 }
 @media (max-width:640px){
+    .header{
+        width:125%;
+    }
     #full{
         width:640px;
         height:550px;
@@ -324,7 +332,9 @@ a{
         padding-right:144px;
     }
     .footer{
-        position:relative;
+        position: relative;
+        top: 300px;
+        width: 125%;
     }
     #portfolio{
         width:636px;
